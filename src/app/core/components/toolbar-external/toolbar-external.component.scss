@@ -1,0 +1,52 @@
+.toolbar-ngdemo {
+  display: flex;
+  justify-content: center;
+  background-color: #EEEEEE;
+  height: 36px;
+}
+
+.button-app {
+  padding-left: 4px;
+  padding-right: 0px;
+}
+
+.button-ngdemo {
+  padding-left: 4px;
+  padding-right: 4px;
+  position: relative;
+  left: -2px;
+}
+
+.domain {
+  font-size: 16px;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-right: 1px;
+  position: relative;
+  bottom: 2px;
+}
+
+.dot {
+  font-size: 16px;
+  font-weight: bold;
+  position: relative;
+  bottom: 2px;
+}
+
+.logo {
+  height: 28px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.tld {
+  font-size: 16px;
+  font-weight: lighter;
+  padding-left: 3px;
+  letter-spacing: 1px;
+  position: relative;
+  bottom: 2px;
+}
+
+
+

@@ -1,0 +1,19 @@
+<div class="menu-icons" [matMenuTriggerFor]="menu">
+  <button mat-icon-button class="menu-button">
+    <mat-icon class="menu-icon">menu</mat-icon>
+  </button>
+</div>
+<mat-menu #menu="matMenu">
+  <button mat-menu-item routerLink="/home">
+    <span>HOME</span>
+  </button>
+  <button mat-menu-item routerLink="/links">
+    <span>LINKS</span>
+  </button>
+  <!-- <button mat-menu-item routerLink="/shortener" *ngIf="(userAuthStatus$ | async)">
+    <span>URL SHORTENER</span>
+  </button>
+  <button mat-menu-item class="route-restricted" *ngIf="(userAuthStatus$ | async) === null" disabled>
+    <span>URL SHORTENER</span>
+  </button> -->
+</mat-menu>
